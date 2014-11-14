@@ -8,11 +8,10 @@ public class camera_dep : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		offset = transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position = player.transform.position + offset;
+		transform.position = player.transform.position;
 	}
 }
